@@ -1,0 +1,35 @@
+{
+  "name": "xianjindai",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "query-string": "^4.2.3",
+    "react": "^15.3.2",
+    "react-addons-update": "^15.4.1",
+    "react-native": "^0.36.0",
+    "react-native-button": "^1.7.1",
+    "react-native-easy-toast": "^1.0.5",
+    "react-native-navbar": "^1.5.4",
+    "react-native-progress": "^3.2.0",
+    "react-native-scrollable-tab-view": "^0.7.0",
+    "react-native-search-bar": "^2.16.0",
+    "react-native-sk-countdown": "^1.0.1",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "^3.0.0",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

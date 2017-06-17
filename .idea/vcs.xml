@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/node/p1204137" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reactNative/react-native-city-pick" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue/vue-WeChat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue/vue-sell" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xiaochengxu/s75" vcs="Git" />
+  </component>
+</project>

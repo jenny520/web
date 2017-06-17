@@ -1,0 +1,23 @@
+<import src="movie-list/movie-list.template.wxml" />
+<import src="movie-grid/movie-grid.template.wxml" />
+<view class="search">
+	<icon type="search" class="search-img" size="13" color="#405f80"/>
+	<input class="search-input" placeholder="釜山行、夏有乔木仰望天堂" type="text" placeholder-class="font" bindconfirm="onBindConfirm" bindfocus="onBindFocus"/>
+	<image class="xx-img" src="/images/icon/xx.png" wx-if="{{searchPannelShow}}" bindtap="onCancleImgTap"></image>
+</view>
+<view class="container" wx-if="{{containerShow}}">
+	<view class="body">
+		<view class="movie-template">
+			<template is="movieListTemplate" data="{{...inTheaters}}"/>
+		</view>
+		<view class="movie-template">
+			<template is="movieListTemplate" data="{{...comingSoon}}"/>
+		</view>
+		<view class="movie-template">
+			<template is="movieListTemplate" data="{{...top250}}"/>
+		</view>
+	</view>
+</view>
+<view class="search-pannel" wx-if="{{searchPannelShow}}">
+	<template is="movieGridTemplate" data="{{movies:searchResult.movies}}"/>
+</view>

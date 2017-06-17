@@ -1,0 +1,25 @@
+{
+  "name": "imooc",
+  "description": "第一个项目实战练习",
+  "main": "app.js",
+  "authors": [
+    "jenny"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

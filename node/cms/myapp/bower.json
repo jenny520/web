@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "description": "a simple cms system",
+  "main": "index.html",
+  "authors": [
+    "zhoumeiyan <312793179@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cms"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
